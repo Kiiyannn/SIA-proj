@@ -1,0 +1,35 @@
+* {
+    font-style: times new roman;
+}
+body {
+    background-color: rgb(31, 9, 50);
+}
+
+.main {
+    border: 1px solid white;
+    border-radius: 20px;
+    background-color: white;     
+    padding: 10px 0px 10px 10px; /* top right bottom left */ 
+    margin: 12px 0px 0px; /* top left-right bottom */
+}
+
+#2nd {
+    color: black;
+    font-size: large;
+}
+
+.main2 {
+    border: none;
+    background-color: white;
+    width: 80%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    margin: 10px 10% 0px;
+    padding: 10px 0px 0px;
+}
+
+#body2 {
+   color: black;
+   margin
+}
