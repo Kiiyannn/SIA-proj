@@ -3,33 +3,70 @@
 }
 body {
     background-color: rgb(31, 9, 50);
+    margin: 0;
+    padding: 0;
 }
 
 .main {
     border: 1px solid white;
     border-radius: 20px;
-    background-color: white;     
-    padding: 10px 0px 10px 10px; /* top right bottom left */ 
-    margin: 12px 0px 0px; /* top left-right bottom */
+    background-color: white;
+    width: 98%;
+    max-width: 1450px;
+    padding: 10px;
+    margin: 12px auto 0; 
 }
 
-#2nd {
+.s2nd {
     color: black;
     font-size: large;
+    width: 100%;
 }
 
-.main2 {
+.main2 { /* this is the "main2" and also the one controlling the content inside of "body2" */
     border: none;
+    border-radius: 20px;
     background-color: white;
-    width: 80%;
-    height: 500px;
+    width: 70%;
+    min-height: 500px;
     display: flex;
     justify-content: center;
-    margin: 10px 10% 0px;
-    padding: 10px 0px 0px;
+    margin: 10px auto 0;
+    padding-top: 10px;
 }
 
-#body2 {
-   color: black;
-   margin
+.body2 { /* this is the "body2" to make the img and text into organize */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+}
+
+.intro { /* this is the one who gives a space between the text and img */
+    padding: 5px 0px 10px;
+}
+
+img {   /* this is for the design of img */
+    height: 150px;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4); /* shadow-effect horizontal-offset, vertical-offset, blur-radius, color */
+    margin-bottom: 15px;
+    max-width: 20%;
+    height: auto;
+}
+
+.parag {  /* this is for the paragraph design */
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 5px;
+    width: 90%;
+    height: 55%;
+    text-align: center;
+}
+
+.parag p {  /* this is for the paragraph text design */
+    font-size: 18px;
+    line-height: 1.6;
+    margin: 10px 0;
 }

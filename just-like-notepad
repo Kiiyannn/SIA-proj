@@ -1,0 +1,11 @@
+github:
+git
+
+
+notes:
+padding: 10px 0px 10px 10px; = top right bottom left
+margin: 12px 0px 0px; = top left-right bottom 
+---
+in css "class" is more preferred than "id", beceause "id" is more used in javascript   
+class = css
+id = javascript
