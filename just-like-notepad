@@ -1,11 +1,21 @@
-github:
-git
+github for vscode:
+1st - git status
+2nd - git add . / git add filenam(for specific file)
+3rd - git commit -m "your message"
+4th - git push origin main
+--------------------------
 
+github for netbeans:
+1st - save the file
+2nd - right-click the projectname and go to git then commit
+3rd - select all edited files then type the message you want and click the commit
+4th - right-click again the projectname, git -> remote -> push
+5th - select the file that you change -> click the main->origin/main -> next -> finish
+--------------------------
 
-notes:
+html/css/js notes:
 padding: 10px 0px 10px 10px; = top right bottom left
 margin: 12px 0px 0px; = top left-right bottom 
----
-in css "class" is more preferred than "id", beceause "id" is more used in javascript   
+-----
 class = css
 id = javascript

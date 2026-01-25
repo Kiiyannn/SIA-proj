@@ -63,10 +63,42 @@ img {   /* this is for the design of img */
     width: 90%;
     height: 55%;
     text-align: center;
+
+    position: relative;
 }
 
 .parag p {  /* this is for the paragraph text design */
     font-size: 18px;
     line-height: 1.6;
     margin: 10px 0;
+    font-weight: bold;
+}
+
+.parag h1 {  /* this is for the h1 text design */
+    font-size: 24px;
+    line-height: 1.6;
+    margin: 10px 0;
+    font-weight: bold;
+}
+ 
+.accs {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.icons img {
+    width: 40px;
+    height: auto;
+    border-radius: 50%;
+    border: 1px solid black;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 15px;
 }
