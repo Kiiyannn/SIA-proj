@@ -1,104 +1,104 @@
+/* Global Reset */
 * {
-    font-style: times new roman;
-}
-body {
-    background-color: rgb(31, 9, 50);
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    font-family: "Times New Roman", serif;
 }
 
-.main {
-    border: 1px solid white;
-    border-radius: 20px;
+/* Body */
+body {
+    background-color: rgb(31, 9, 50);
+}
+
+/* Header */
+.header {
     background-color: white;
+    border-radius: 20px;
     width: 98%;
     max-width: 1450px;
-    padding: 10px;
-    margin: 12px auto 0; 
+    margin: 12px auto 0;
+    padding: 15px;
 }
 
-.s2nd {
+.header-text {
+    font-size: 18px;
     color: black;
-    font-size: large;
-    width: 100%;
 }
 
-.main2 { /* this is the "main2" and also the one controlling the content inside of "body2" */
-    border: none;
-    border-radius: 20px;
+/* Main Container */
+.container {
     background-color: white;
+    border-radius: 20px;
     width: 70%;
     min-height: 500px;
+    margin: 10px auto;
+    padding: 20px;
     display: flex;
     justify-content: center;
-    margin: 10px auto 0;
-    padding-top: 10px;
 }
 
-.body2 { /* this is the "body2" to make the img and text into organize */
+/* Content */
+.content {
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
     color: black;
 }
 
-.intro { /* this is the one who gives a space between the text and img */
-    padding: 5px 0px 10px;
+/* Intro Text */
+.intro {
+    margin-bottom: 10px;
 }
 
-img {   /* this is for the design of img */
-    height: 150px;
-    border: 1px solid black;
+/* Profile Image */
+.profile-img {
+    width: 150px;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4); /* shadow-effect horizontal-offset, vertical-offset, blur-radius, color */
-    margin-bottom: 15px;
-    max-width: 20%;
-    height: auto;
+    border: 1px solid black;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+    margin-bottom: 20px;
 }
 
-.parag {  /* this is for the paragraph design */
+/* About Section */
+.about {
     border: 1px solid black;
     border-radius: 10px;
-    padding: 5px;
+    padding: 15px;
     width: 90%;
-    height: 55%;
-    text-align: center;
-
-    position: relative;
 }
 
-.parag p {  /* this is for the paragraph text design */
+/* About Text */
+.about h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.about p {
     font-size: 18px;
     line-height: 1.6;
-    margin: 10px 0;
     font-weight: bold;
 }
 
-.parag h1 {  /* this is for the h1 text design */
-    font-size: 24px;
-    line-height: 1.6;
-    margin: 10px 0;
-    font-weight: bold;
-}
- 
-.accs {
+/* Social Icons */
+.socials {
     display: flex;
     justify-content: center;
-    align-items: flex-end;
+    gap: 15px;
+    margin-top: 20px;
 }
 
-.icons img {
+.socials img {
     width: 40px;
-    height: auto;
     border-radius: 50%;
     border: 1px solid black;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
     transition: transform 0.3s, box-shadow 0.3s;
 }
 
-.icons {
-    display: flex;
-    justify-content: center;
-    gap: 15px;
-    margin-top: 15px;
+.socials img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
 }
+
