@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css.css">  
+</head>
+<body>
+    <div class="container">
+        <section class="login-section">
+            <h1>Log-in</h1>
+            <hr>
+            <!--Login-->
+            <form>
+                <!--input of the login-->
+                <label for="fname">Username:</label><br>
+                <input type="text" id="fname" name="fname"><br>
+                <label for="lname">Password:</label><br>
+                <input type="text" id="lname" name="lname">
+                <!--after login redirect to main dashboar-->
+                <button type="submit">
+                    <a href="../dashboards/dashboard.html">
+                        Login
+                    </a>
+                </button>
+                <!--if the user is doesnt have acc-->
+                <button type="submit">
+                    <a href="signup.html">Sign up</a>
+                </button>
+            </form>
+        </section>
+    </div>
+</body>
+</html>

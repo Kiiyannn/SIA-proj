@@ -1,0 +1,30 @@
+github for vscode:
+1st - git status
+2nd - git add . / git add filenam(for specific file)
+3rd - git commit -m "your message"
+4th - git push origin main
+
+push to other repository:
+1st - git remote -value
+2nd - git remote set-url origin <repository url here>, veify it with the same command of 1st
+3rd - git add <name of the file/folder here> 
+4th - git commit -m "<your message here>"
+5th - git push -u origin main
+--------------------------
+
+github for netbeans:
+1st - save the file
+2nd - right-click the projectname and go to git then commit
+3rd - select all edited files then type the message you want and click the commit
+4th - right-click again the projectname, git -> remote -> push
+5th - select the file that you change -> click the main -> origin/main -> next -> finish
+--------------------------
+
+html/css/js notes:
+4 value == (top, right, bottom, left)
+3 value == (top, left-right, bottom) 
+2 value == (top-bottom, left-right) 
+
+-----
+class = css - " . "
+id = javascript - " # "

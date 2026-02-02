@@ -5,7 +5,7 @@
 }
 
 body {
-    background-image: url("img/login.jpg");
+    background-image: url("../img/login.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -38,7 +38,6 @@ hr {
     background-color: #00000068;
     margin: 20px 0;
 }
-
 form input {
     width: 100%;
     padding: 10px;
@@ -59,4 +58,11 @@ form button {
     cursor: pointer;
     font-size: 18px;
     margin-top: 5px;
+}
+a {
+    text-decoration: none;
+    color: white;
+} 
+button:hover {
+    background-color: #218838;
 }
