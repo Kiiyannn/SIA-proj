@@ -14,35 +14,28 @@ body {
     overflow: hidden;
     padding: 20px;
 }
+
+/* basta sa uluhan to */
 .header {
     background: #35424a;
     color: #ffffff;
-    padding: 20px 0;
-    text-align: left;
+    padding: 15px;
+    display: flex;    
+    justify-content: center;
 }
 .header h1 {
-    margin-left: 10px;
+    margin: 5px;
+    font-size: 44px;
 }
-.main-content {
-    background: #ffffff;
-    padding: 20px;
-    margin-top: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-.navbar-container {
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-    margin-bottom: 20px;
-}
+
+/* navbar naman to */
 .navbar {
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     align-items: center;
     background: #e8491d;
     padding: 10px 0;
-    width: 100px;
-    height: 100vh;
+    width: 100%;
     
 }
 .navbar a {
@@ -51,3 +44,43 @@ body {
     padding: 10px;
     display: block;
 }
+
+/* main content naman to */
+.main-container-side {
+    display: flex;
+    gap: 20px;
+    width: 100%;
+}
+
+/* MAIN CONTENT — BIG */
+.main-content {
+    flex: 4;
+    background: #ffffff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    min-height: 70vh;
+}
+
+/* SIDEBAR — SMALL */
+.sidebar {
+    flex: 1;
+    background: #e2e2e2;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    min-height: 70vh;
+}
+
+/* 📱 Responsive */
+@media (max-width: 768px) {
+    .main-container-side {
+        flex-direction: column;
+    }
+
+    .main-content,
+    .sidebar {
+        width: 100%;
+        min-height: auto;
+    }
+}
+
+
